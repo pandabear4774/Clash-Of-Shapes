@@ -32,6 +32,9 @@ public class Troop : MonoBehaviour
             timer = timerReset;
             transform.position += new Vector3(distance, 0, 0);
             distance += Mathf.Sqrt(distance) / 35f;
+            if(Mathf.Abs(transform.position.x) >= 90) {
+                Destroy(gameObject);
+            }
         }
     }
 }

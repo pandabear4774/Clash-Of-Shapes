@@ -74,9 +74,11 @@
     <Compile Include="Assets\Scripts\Mana.cs" />
     <Compile Include="Assets\Scripts\ParticlCollision.cs" />
     <Compile Include="Assets\Scripts\Particle.cs" />
+    <Compile Include="Assets\Scripts\PauseScript.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\SetDeathScoreLabel.cs" />
     <Compile Include="Assets\Scripts\SpawnTroop.cs" />
+    <Compile Include="Assets\Scripts\SpawnerTroop.cs" />
     <Compile Include="Assets\Scripts\SquareMovement.cs" />
     <Compile Include="Assets\Scripts\StoreHighScore.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />

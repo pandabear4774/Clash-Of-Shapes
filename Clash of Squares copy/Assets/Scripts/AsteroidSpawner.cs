@@ -21,6 +21,7 @@ public class AsteroidSpawner : MonoBehaviour
 
     void Start()
     {
+        squareSize = 2;
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
         timer2 = timerReset / 2f;
     }

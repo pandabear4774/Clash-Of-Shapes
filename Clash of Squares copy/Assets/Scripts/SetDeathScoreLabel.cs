@@ -15,4 +15,16 @@ public class SetDeathScoreLabel : MonoBehaviour
         enemyLabel.text = "Enemy Score: " + PlayerPrefs.GetFloat("EnemyScore").ToString();
         finalLabel.text = "Final Score: " + PlayerPrefs.GetFloat("FinalScore").ToString();
     }
+    public void updateScore()
+    {
+        float finalScore = Score.leftScore - Score.rightScore;
+        if(finalScore < 0)
+        {
+            finalScore = 0;
+        }
+        yourLabel.text = "YourScore: " + Score.leftScore.ToString();
+        enemyLabel.text = "Enemy Score: " + Score.rightScore.ToString();
+        finalLabel.text = "Final Score: " + finalScore.ToString();
+
+    }
 }

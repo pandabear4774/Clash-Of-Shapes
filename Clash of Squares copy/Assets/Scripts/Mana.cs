@@ -14,6 +14,7 @@ public class Mana : MonoBehaviour
     {
         timerSpeed = 1 / timerSpeed;
         timer = timerSpeed;
+        manaCount = 100;
     }
 
     // Update is called once per frame

@@ -7,8 +7,8 @@ public class ButtonAction : MonoBehaviour
 {
     public static GameObject objectSelected;
     public static float objectSelectedCost;
-    public Button nextButton, wallSelect, troopSelect, bombSelect;
-    public GameObject wall, troop, bomb;
+    public Button nextButton, wallSelect, troopSelect, bombSelect, spawnerSelect;
+    public GameObject wall, troop, bomb, spawner;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,7 @@ public class ButtonAction : MonoBehaviour
         wallSelect.onClick.AddListener(SelectWall);
         troopSelect.onClick.AddListener(SelectTroop);
         bombSelect.onClick.AddListener(SelectBomb);
+        spawnerSelect.onClick.AddListener(SelectSpawner);
     }
     void NextLine()
     {
@@ -35,5 +36,10 @@ public class ButtonAction : MonoBehaviour
     {
         objectSelected = bomb;
         objectSelectedCost = Bomb.cost;
+    }
+    void SelectSpawner()
+    {
+        objectSelected = spawner;
+        objectSelectedCost = SpawnerTroop.cost;
     }
 }

@@ -23,10 +23,10 @@ public class FollowMouse : MonoBehaviour
             }
             if(ButtonAction.objectSelected != null)
             {
-                if (Mana.manaCount >= 10)
+                if (Mana.manaCount >= ButtonAction.objectSelectedCost)
                 {
                     Instantiate(ButtonAction.objectSelected, transform.position, transform.rotation);
-                    Mana.manaCount -= 10;
+                    Mana.manaCount -= ButtonAction.objectSelectedCost;
                 }
             }
             
