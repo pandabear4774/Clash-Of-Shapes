@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{4CA48D5C-7B3F-5E40-7176-29BDFD8D6D8B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TroopMovement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/DeathScene.cs" Line="18" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/ParticlCollision.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/TimeMaster.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/TurretTower.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/PauseScript.cs" IsPinned="True" />
+      <File FileName="Assets/Scripts/SquareMovement.cs" Line="151" Column="17" />
+      <File FileName="Assets/Scripts/SpawnTroop.cs" />
+      <File FileName="Assets/Scripts/Mana.cs" />
+      <File FileName="Assets/Scripts/Score.cs" />
+      <File FileName="Assets/Scripts/FollowMouse.cs" />
+      <File FileName="Assets/Scripts/Bomb.cs" />
+      <File FileName="Assets/Scripts/SwitchScenes.cs" />
+      <File FileName="Assets/Scripts/AsteroidMovement.cs" />
+      <File FileName="Assets/Scripts/AsteroidSpawner.cs" />
+      <File FileName="Assets/Scripts/StoreHighScore.cs" />
+      <File FileName="Assets/Scripts/SetDeathScoreLabel.cs" />
+      <File FileName="Assets/Scripts/Troop.cs" />
+      <File FileName="Assets/Scripts/SpawnerTroop.cs" />
+      <File FileName="Assets/Scripts/AutoDestroy.cs" />
+      <File FileName="Assets/Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/Coins.cs" />
+      <File FileName="Assets/Scripts/ShopMenu.cs" />
+      <File FileName="Assets/Scripts/ShooterTroop.cs" />
+      <File FileName="Assets/Scripts/BulletMovement.cs" />
+      <File FileName="Assets/Scripts/Wall.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Levels.cs" />
+      <File FileName="Assets/Scripts/ManaClicker.cs" />
+      <File FileName="Assets/Scripts/WallTower.cs" />
+      <File FileName="Assets/Scripts/TroopMovement.cs" Line="7" Column="34" />
+      <File FileName="Assets/Scripts/ButtonAction.cs" Line="55" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Clash of Squares" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="TroopMovement.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e37186a3-60ae-4599-a0fb-0d5d10608886" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
